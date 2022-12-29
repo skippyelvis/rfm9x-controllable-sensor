@@ -1,0 +1,10 @@
+workdir: .
+devdir: /media/skippyelvis/CIRCUITPY1
+sharedir: /home/skippyelvis/circuitpy/rfm9x-lora/cpshare
+devname: controller
+ignore:
+    - proj.yaml
+libdir: /home/skippyelvis/circuitpy/libs/adafruit-circuitpython-bundle-8.x-mpy-20221029/lib
+libs:
+    - adafruit_rfm9x.mpy
+    - adafruit_bus_device/
